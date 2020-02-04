@@ -1,0 +1,9 @@
+package entities;
+
+public class OutsourcedEmployee {
+
+	public OutsourcedEmployee() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

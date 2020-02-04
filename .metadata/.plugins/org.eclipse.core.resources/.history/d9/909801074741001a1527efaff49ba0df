@@ -1,0 +1,12 @@
+package entities;
+
+import java.util.Date;
+
+import entities.enums.ProductOrderStatus;
+
+public class ProductOrder {
+
+	private Date moment;
+	private ProductOrderStatus status;
+	
+}

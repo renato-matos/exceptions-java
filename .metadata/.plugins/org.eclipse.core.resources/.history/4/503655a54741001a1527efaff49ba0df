@@ -1,0 +1,28 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercise118 {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+
+		// Client Data
+		
+		System.out.println("Enter client data:");
+		System.out.print("Name: ");
+		String name = sc.next();
+		System.out.print("Email: ");
+		String email = sc.next();
+		System.out.print("Birth date (DD/MM/YYYY): ");
+		String birthDate = sc.next();
+		
+		
+		sc.close();
+		
+	}
+
+}
